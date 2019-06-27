@@ -53,10 +53,10 @@ public class Test : MonoBehaviour {
 
         Boss lastboss = new Boss();
 
-        for (int i = 1; i <= 11; i++)
+        for (int i = 1; i <= 11; i ++)
         {
 
-            Debug.Log(i + "回目の魔法攻撃");
+            Debug.Log( i + "回目の魔法攻撃");
 
             lastboss.Magic();
 
@@ -79,8 +79,6 @@ public class Test : MonoBehaviour {
         Debug.Log("逆にarray配列を表示");
 
         for ( int x = 4; x >= 0; x--) {
-
-            array[x] = x+5 ;
 
             Debug.Log(array[x]);
 
